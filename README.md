@@ -49,22 +49,22 @@ int compare_round (int a, int b)// возвращает разницу межд�
 4. Вывод запроса ввода значений для `user_figure`, `user_action`
 5. Ввод данных пользователем
 6. Выбор действия, осуществленный через if, else if и else
-   - if (`user_figure` == 1 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_right_trapezoid()
+   - if (`user_figure` == 1 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_right_trapezoid(), вывод данных
    - else if (`user_figure` == 1 && `user_action` == 2): Запрос ввода данных, ввод данных, вызов функции draw_right_trapezoid()
    - else if (`user_figure` == 1 && `user_action` == 3): Запрос ввода данных, ввод данных, вызов функции right_trapezoid_definition()
-   - else if (`user_figure` == 1 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_right_trapezoid()
-   - if (`user_figure` == 2 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_round()
+   - else if (`user_figure` == 1 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_right_trapezoid(), вывод данных
+   - if (`user_figure` == 2 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_round(), вывод данных
    - else if (`user_figure` == 2 && `user_action` == 2): Запрос ввода данных, ввод данных, вызов функции draw_round()
    - else if (`user_figure` == 2 && `user_action` == 3): Запрос ввода данных, ввод данных, вызов функции round_definition()
-   - else if (`user_figure` == 2 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_round()
-   - if (`user_figure` == 3 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_rectangle()
+   - else if (`user_figure` == 2 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_round(), вывод данных
+   - if (`user_figure` == 3 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_rectangle(), вывод данных
    - else if (`user_figure` == 3 && `user_action` == 2): Запрос ввода данных, ввод данных, вызов функции draw_rectangle()
    - else if (`user_figure` == 3 && `user_action` == 3): Запрос ввода данных, ввод данных, вызов функции rectangle_definition()
-   - else if (`user_figure` == 3 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_rectangle()
-   - if (`user_figure` == 4 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_triangle()
+   - else if (`user_figure` == 3 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_rectangle(), вывод данных
+   - if (`user_figure` == 4 && `user_action` == 1): Запрос ввода данных, ввод данных, вызов функции area_triangle(), вывод данных
    - else if (`user_figure` == 4 && `user_action` == 2): Запрос ввода данных, ввод данных, вызов функции draw_triangle()
    - else if (`user_figure` == 4 && `user_action` == 3): Запрос ввода данных, ввод данных, вызов функции triangle_definition()
-   - else if (`user_figure` == 4 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_triangle()
+   - else if (`user_figure` == 4 && `user_action` == 4): Запрос ввода данных, ввод данных, вызов функции compare_triangle(), вывод данных
    - else: Вывод строки "Такой команды нет"
 7. Запрос ввода данных для `stop`
 8. Ввод данных для `stop`
